@@ -515,3 +515,22 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/msm8937-common/proprietary/vendor/res/charger/battery_num_8.png:$(TARGET_COPY_OUT_VENDOR)/res/charger/battery_num_8.png \
     vendor/xiaomi/msm8937-common/proprietary/vendor/res/charger/battery_num_9.png:$(TARGET_COPY_OUT_VENDOR)/res/charger/battery_num_9.png \
     vendor/xiaomi/msm8937-common/proprietary/vendor/res/charger/battery_scale.png:$(TARGET_COPY_OUT_VENDOR)/res/charger/battery_scale.png
+
+# Newly added libOmx* libs
+PRODUCT_COPY_FILES += \
+    vendor/xiaomi/msm8937-common/proprietary/vendor/lib/libOmxAacEnc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAacEnc.so \
+    vendor/xiaomi/msm8937-common/proprietary/vendor/lib/libOmxAmrEnc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxAmrEnc.so \
+    vendor/xiaomi/msm8937-common/proprietary/vendor/lib/libOmxEvrcEnc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxEvrcEnc.so \
+    vendor/xiaomi/msm8937-common/proprietary/vendor/lib/libOmxQcelp13Enc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxQcelp13Enc.so \
+    vendor/xiaomi/msm8937-common/proprietary/vendor/lib/libOmxSwVdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxSwVdec.so \
+    vendor/xiaomi/msm8937-common/proprietary/vendor/lib/libOmxSwVencMpeg4.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxSwVencMpeg4.so \
+    vendor/xiaomi/msm8937-common/proprietary/vendor/lib/libOmxVdec.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVdec.so \
+    vendor/xiaomi/msm8937-common/proprietary/vendor/lib/libOmxVenc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libOmxVenc.so \
+    vendor/xiaomi/msm8937-common/proprietary/vendor/lib64/libOmxAacEnc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAacEnc.so \
+    vendor/xiaomi/msm8937-common/proprietary/vendor/lib64/libOmxAmrEnc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxAmrEnc.so \
+    vendor/xiaomi/msm8937-common/proprietary/vendor/lib64/libOmxEvrcEnc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxEvrcEnc.so \
+    vendor/xiaomi/msm8937-common/proprietary/vendor/lib64/libOmxQcelp13Enc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxQcelp13Enc.so \
+    vendor/xiaomi/msm8937-common/proprietary/vendor/lib64/libOmxSwVdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxSwVdec.so \
+    vendor/xiaomi/msm8937-common/proprietary/vendor/lib64/libOmxSwVencMpeg4.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxSwVencMpeg4.so \
+    vendor/xiaomi/msm8937-common/proprietary/vendor/lib64/libOmxVdec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxVdec.so \
+    vendor/xiaomi/msm8937-common/proprietary/vendor/lib64/libOmxVenc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libOmxVenc.so
