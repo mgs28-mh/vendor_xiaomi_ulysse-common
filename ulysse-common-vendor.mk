@@ -7,7 +7,6 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/ulysse-common/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/com.qti.snapdragon.sdk.display.xml \
-    vendor/xiaomi/ulysse-common/proprietary/framework/com.qti.snapdragon.sdk.display.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/xiaomi/ulysse-common/proprietary/lib/libFileMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libFileMux.so \
     vendor/xiaomi/ulysse-common/proprietary/lib/libOmxMux.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libOmxMux.so \
     vendor/xiaomi/ulysse-common/proprietary/lib/libsdm-disp-apis.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libsdm-disp-apis.so \
@@ -26,10 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/ulysse-common/proprietary/system_ext/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_permissions.xml \
     vendor/xiaomi/ulysse-common/proprietary/system_ext/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephony_system-ext_privapp-permissions-qti.xml \
     vendor/xiaomi/ulysse-common/proprietary/system_ext/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephonyservice.xml \
-    vendor/xiaomi/ulysse-common/proprietary/system_ext/framework/com.qti.dpmframework.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/com.qti.dpmframework.jar \
-    vendor/xiaomi/ulysse-common/proprietary/system_ext/framework/dpmapi.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/dpmapi.jar \
-    vendor/xiaomi/ulysse-common/proprietary/system_ext/framework/embmslibrary.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/embmslibrary.jar \
-    vendor/xiaomi/ulysse-common/proprietary/system_ext/framework/qcrilhook.jar:$(TARGET_COPY_OUT_SYSTEM_EXT)/framework/qcrilhook.jar \
     vendor/xiaomi/ulysse-common/proprietary/system_ext/lib/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/com.qualcomm.qti.ant@1.0.so \
     vendor/xiaomi/ulysse-common/proprietary/system_ext/lib/extractors/libmmparserextractor.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/extractors/libmmparserextractor.so \
     vendor/xiaomi/ulysse-common/proprietary/system_ext/lib/liblistenjni.qti.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib/liblistenjni.qti.so \
@@ -659,6 +654,11 @@ PRODUCT_PACKAGES += \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
+    com.qti.snapdragon.sdk.display \
+    com.qti.dpmframework \
+    dpmapi \
+    embmslibrary \
+    qcrilhook \
     android.hardware.gnss@2.1-service-qti \
     manifest_android.hardware.drm@1.3-service.widevine \
     vendor.qti.gnss@4.0-service
