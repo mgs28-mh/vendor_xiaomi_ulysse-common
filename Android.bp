@@ -58,22 +58,22 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-	name: "libsdm-disp-vndapis",
-	owner: "xiaomi",
-	strip: {
-		none: true,
-	},
-	target: {
-		android_arm: {
-			srcs: ["graphics_sdm/vendor/lib/libsdm-disp-vndapis.so"],
-		},
-		android_arm64: {
-			srcs: ["graphics_sdm/vendor/lib64/libsdm-disp-vndapis.so"],
-		},
-	},
-	compile_multilib: "both",
-	prefer: true,
-	soc_specific: true,
+        name: "libsdm-disp-vndapis",
+        owner: "xiaomi",
+        strip: {
+                none: true,
+        },
+        target: {
+                android_arm: {
+                        srcs: ["graphics/vendor/lib/libsdm-disp-vndapis.so"],
+                },
+                android_arm64: {
+                        srcs: ["graphics/vendor/lib64/libsdm-disp-vndapis.so"],
+                },
+        },
+        compile_multilib: "both",
+        prefer: true,
+        soc_specific: true,
 }
 
 cc_prebuilt_library_shared {

@@ -20,7 +20,6 @@ PRODUCT_SOONG_NAMESPACES += \
 # Inherit fragments
 $(call inherit-product, vendor/xiaomi/msm8937-common/msm8937-common-vendor-gpu_firmware.mk)
 $(call inherit-product, vendor/xiaomi/msm8937-common/msm8937-common-vendor-graphics.mk)
-$(call inherit-product, vendor/xiaomi/msm8937-common/msm8937-common-vendor-graphics_sdm.mk)
 $(call inherit-product, vendor/xiaomi/msm8937-common/msm8937-common-vendor-perf_configs.mk)
 
 $(call inherit-product, vendor/xiaomi/msm8937-common/msm8937-common-vendor-ims_p.mk)
