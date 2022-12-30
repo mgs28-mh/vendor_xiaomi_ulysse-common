@@ -4,6 +4,6 @@
 
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter MiThoriumSSI Mi8937 Mi439_4_19 Tiare oxygen uter vince onc,$(TARGET_DEVICE)),)
+ifneq ($(filter ugg ugglite ulysse,$(TARGET_DEVICE)),)
 
 endif
